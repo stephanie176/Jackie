@@ -1,0 +1,53 @@
+    .main-body {
+       background-image: url("./backgroundtwo.jpg");
+       padding: 50px;
+              background-size: cover;   
+    }
+    /*This is for navigation*/
+    .main-nav {
+        background-color:  black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 0;
+        width: 100%;
+     }
+     .nav-list {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+     }
+     .logo {
+        color:purple ;
+        font-size: 30px;
+        text-decoration: none;
+        font-weight: 900;
+        padding-right: 15rem;
+     }
+     a {
+      text-decoration: none;
+      color: white;
+      }
+     li {
+        list-style-type: none;
+     }
+     /*parent section*/
+    .btn {
+    background-color: rgba(243, 247, 247, 0.301);
+    color: black;
+    padding: 5px 15px;
+    }
+    .header-one {
+        font-size: 3rem;
+    }
+    .first-parent {
+      display: flex;
+      flex-direction: row;
+          } 
+          .second-child img{
+              max-width: 400px;
+              height: 400px;
+              border-radius: 50%;
+          }
